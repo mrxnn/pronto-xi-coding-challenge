@@ -51,8 +51,6 @@ const ControlButton = ({
 }: HTMLAttributes<HTMLButtonElement>) => {
   return (
     <button
-      data-testid="bottom-control"
-      aria-label="Bottom control"
       className={`w-12 h-12 rounded-full bg-neutral-800 flex justify-center items-center absolute hover:bg-neutral-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-neutral-700 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 transition-all hover:scale-110 ${className}`}
       {...props}>
       {children}
