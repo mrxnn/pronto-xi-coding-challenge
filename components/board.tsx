@@ -8,7 +8,7 @@ export const Board = ({
   const cells = [1, 2, 3, 4, 5];
 
   return (
-    <div className="border border-neutral-700/90 flex flex-col-reverse rounded-md">
+    <div className="border border-neutral-700/90 flex flex-col-reverse rounded-md ring-1 ring-neutral-700/40 ring-offset-4 ring-offset-neutral-900/80">
       {cells.map((y) => (
         <div className="flex" key={y}>
           {cells.map((x) => (
